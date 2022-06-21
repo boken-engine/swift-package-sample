@@ -1,4 +1,6 @@
-# swift-package-sample
+# Swift Package Sample
+
+[![Build and test](https://github.com/boken-engine/swift-package-sample/actions/workflows/ios.yml/badge.svg)](https://github.com/boken-engine/swift-package-sample/actions/workflows/ios.yml)
 
 Sample Swift Package to try `xcodebuild` commands.
 
