@@ -25,6 +25,10 @@ jobs:
         run: | 
           swift build
 
+      - name: Test with swift
+        run: | 
+          swift test          
+
       - name: Build with xcodebuild
         run: |
           xcodebuild build-for-testing -scheme swift-package-sample -destination "platform=iOS Simulator,OS=15.4,name=iPhone 13"
